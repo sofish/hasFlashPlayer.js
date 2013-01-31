@@ -1,0 +1,2 @@
+//! (c) sofish https://github.com/sofish/hasFlashPlayer.js
+(function(f){var b=navigator.plugins,e=navigator.mimeTypes&&navigator.mimeTypes["application/x-shockwave-flash"];f.hasFlashPlayer=b&&b.length&&e&&e.enabledPlugin||"undefined"!==typeof ActiveXObject&&function(){var c,a;a=!1;c=["ShockwaveFlash.ShockwaveFlash.6","ShockwaveFlash.ShockwaveFlash.7","ShockwaveFlash.ShockwaveFlash"];for(var d=0;d<c.length;d++)if(!a)try{a=new ActiveXObject(c[d])}catch(b){}return!!a}()||!1})(window);

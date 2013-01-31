@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>window.hasFlashPlayer</title>
+  <link rel="stylesheet" href="http://typo.sofish.de/typo.css">
+</head>
+<body style="padding:50px;" class="typo">
+
+<h3>Usage:</h3>
+<pre>
+&lt;script type="text/javascript" src="./hasFlashPlayer.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+  if(hasFlashPlayer) alert('You have FlashPlayer installed!');
+&lt;/script&gt;
+</pre>
+<div id="status">Detecting...</div>
+
+<script type="text/javascript" src="./hasFlashPlayer.js"></script>
+<script type="text/javascript">
+  var message = hasFlashPlayer ?
+    'You have FlashPlayer installed!' :
+    'You don\'t have a FlashPlayer or it\'s disabled.'
+
+  document.getElementById('status').innerHTML = message;
+</script>
+
+</body>
+</html>
