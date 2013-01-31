@@ -11,3 +11,7 @@ a snippet to detect whether a FlashPlayer is installed in browser.
 </script>
 ```
 
+### capability:
+
+Tested under: IE >=6 / Firefox / Chrome / Opera / Safari.
+
